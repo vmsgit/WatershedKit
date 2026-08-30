@@ -1,0 +1,68 @@
+# Python virtual environment
+venv/
+.venv/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local temp and logs
+*.log
+*.tmp
+*.bak
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Project folders that are local/generated and should not be tracked
+Documentation/
+datalayers/
+inputs/
+outputs/
+
+data/
+
+# Generated geospatial and analysis outputs
+*.tif
+*.tiff
+*.img
+*.asc
+*.jp2
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.gpkg
+*.geojson
+*.kml
+*.kmz
+*.aux.xml
+*.ovr
+*.png
+
+# -------------------------------------------------------------------
+# Note: Git does not ignore these folders by default.
+# They are ignored here because you want them excluded from version control.
+# -------------------------------------------------------------------
